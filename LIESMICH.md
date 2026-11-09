@@ -1,84 +1,90 @@
-# Tulpenstrasse 15, Sindelfingen, Wohnung Nr. 2
+# Tulpenstraße 15, Sindelfingen, Wohnung Nr. 2 (Erdgeschoss links), Fassung Doro
+
+Stand: 09.11.2026, aufgebaut nach Annas 3. Fassung Nr. 3 (05.11.2026)
 
 ## Was in diesem Ordner liegt
 
-    index.html          das Expose
-    bilder/             21 Bilddateien, vom Expose eingebunden
-    unterlagen/         11 PDF, ueber die Downloadkarten verlinkt
+    index.html          das Exposé
+    bilder/             Bilddateien, vom Exposé eingebunden
+    unterlagen/         11 PDF, über die Downloadkarten verlinkt
 
-Alle drei muessen beieinander bleiben. Fehlt "bilder", zeigt die Seite
-keine Fotos. Fehlt "unterlagen", laufen die Downloads ins Leere.
+Alle drei müssen beieinander bleiben. Fehlt "bilder", zeigt die Seite keine
+Fotos. Fehlt "unterlagen", funktionieren die Downloads nicht.
 
-## Stand dieser Fassung
+## Einbau
 
-Geaendert gegenueber der Vorfassung:
+Die neue index.html ersetzt die alte im bestehenden Paket
+(WebExposes/Wohnung-2_Doro/Wohnung_2_18.09.2026). Die Ordner "bilder" und
+"unterlagen" bleiben unverändert, alle verlinkten Dateien sind dort vorhanden.
 
-    Zinsregler: Standard 5,00 Prozent, Bereich 4,50 bis 5,50 Prozent
-    Baujahr: Ursprungsbaujahr 1931, kompletter Umbau 1985
-    Neuer Absatz "Baugeschichte" im Abschnitt 02, linke Spalte
-    Bad der Wohnung als Bild in der Reihe "Die Wohnung"
-    Zwei Kellerbilder in der Reihe "Haus und Gemeinschaftsflaechen"
-    Bildreihen sind jetzt waagerecht wischbar, mit Pfeilen am Rand
-    Im Ausdruck bleiben die Reihen ein Raster mit zwei Bildern je Zeile
+## Eckdaten im Exposé
 
-Korrigiert:
+- Kaufpreis 187.000 € inkl. Außenstellplatz (5.000 €), provisionsfrei
+- Ohne Eigenkapital: Kaufpreis 201.000 € inkl. Nebenkosten. Notar, Grundbuch,
+  Grunderwerbsteuer und Grundschuldbestellung trägt der Verkäufer. Darlehen 201.000 €.
+- Wohnfläche 64,20 m², Miteigentumsanteil 172,8/1.000
+- Ursprungsbaujahr 1931 als Doppelhaushälfte, Umbau zum Sechsfamilienhaus 1987
+- Vermietet seit 01.05.1995, Kaltmiete 480,40 € + Stellplatz 60,00 €
+- Letzte Mieterhöhung 01.10.2026, nächste frühestens 01.10.2029
+- Hausgeld 297,63 € (Wirtschaftsplan 2026), davon nicht umlegbar 59,51 €,
+  Zuführung Erhaltungsrücklage 64,11 €
+- Rücklage für das Sondereigentum 8.640 €, Entnahme 2027 bis 2029 je 130 €,
+  2030 bis 2032 je 80 €, 2033 bis 2035 je 30 €
+- Restnutzungsdauer 15 Jahre nach Gutachten (Stichtag 18.01.2026), AfA 6,67 %
+- Gebäudeanteil 74,47 % laut Kaufpreisaufteilung im Kaufvertrag, unter Vorbehalt
+  der Anerkennung durch das Finanzamt
+- Abschreibungsbasis (Rücklage herausgerechnet):
+  mit Eigenkapital (187.000 − 8.640) × 1,07 × 74,47 % = 142.122 €, AfA 9.475 €
+  ohne Eigenkapital (201.000 − 8.640) × 74,47 % = 143.250 €, AfA 9.550 €
+- Marktmiete nach Renovierung angesetzt mit 899 € (14,00 €/m² wie die renovierte Nr. 4)
+- Ansprechpartnerin: Dorothee Hahn
 
-    Drei Startwerte in der Monatsrechnung standen noch auf 4,40 Prozent
-    Die Groesse von 09_Gebaeudeversicherung.pdf war im Skript mit
-    461.735 Byte angegeben, die Datei im Paket hat 194.902 Byte
+## Änderungen gegenüber der Fassung vom 18.09.2026
 
-## Bitte pruefen
+- Aufbau wie Nr. 3 (Annas 3. Fassung): 11 Kapitel, Trust-Leiste, Kapitel
+  "Übersicht" entfällt, Bank-Exposé statt Finanzierungsvermittler.
+- "Mietsubvention" heißt jetzt "Rücklage für Ihr Sondereigentum".
+- Erwerbsnebenkosten 7 % (13.090 €), Sondereigentumsverwaltung 40 € brutto pauschal.
+- Rechner: Zins 4,40 bis 5,50 % in Schritten von 0,01, Start 4,40 %. Ergebnis erscheint
+  nach einmaligem Klick auf "Ergebnis anzeigen", danach rechnet jede Änderung sofort mit.
+- Variante "Ohne EK" mit Kaufpreis inkl. Nebenkosten (201.000 €).
+- Mieterhöhungen im Rechner ab Oktober 2029, 2032 und 2035.
+- Objektwert startet bei 178.360 € (Kaufpreis ohne Rücklage). Vorher war die
+  Rücklage doppelt gezählt, im Objektwert und als Entnahme im Cashflow.
+- Lohnsteuer-Tipp ergänzt: Verluste aus Vermietung werden erst ab dem Kalenderjahr
+  nach dem Kauf als Freibetrag berücksichtigt (§ 39a Abs. 1 Nr. 5 i. V. m.
+  § 37 Abs. 3 EStG).
+- Hinweis ergänzt: Instandhaltung von Fenstern, Türen, Roll- und Klappläden trägt
+  laut Gemeinschaftsordnung der Eigentümer allein, seit dem Umbau nicht erneuert.
+- Mietbeginn 01.05.1995 ergänzt, alle Innenfotos als KI-retuschiert gekennzeichnet.
+- Renovierungsfotos zeigen Nr. 4 direkt über dieser Wohnung (vorher fälschlich Nr. 3).
 
-Die Gebaeudeversicherung liegt hier als andere Datei vor als im Paket
-zu Wohnung 5 (190 kB mit 16 Seiten gegen 450 kB mit 7 Seiten).
+## Beispielrechnung (Standardwerte)
 
-## Hochladen
+4,40 % Zins, 1,00 % Tilgung, 42 % Steuersatz, 2 % Wertsteigerung, ohne
+Sondereigentumsverwaltung:
 
-Ein eigenes Repository fuer diese Wohnung anlegen. Dann auf
-"Add file", danach "Upload files", und in das Fenster alles drei
-zusammen ziehen:
+- 100 % Finanzierung (Eigenkapital 13.090 €): Cashflow nach Steuern 122,73 € im
+  ersten Monat, Ergebnis nach zehn Jahren 51.977 €.
+- Ohne Eigenkapital (Darlehen 201.000 €): Cashflow nach Steuern 83,92 € im ersten
+  Monat, Ergebnis nach zehn Jahren 48.015 €.
 
-    index.html
-    bilder            (der ganze Ordner)
-    unterlagen        (der ganze Ordner)
+## Offen
 
-Wichtig: nicht den Ordner "Wohnung-2" hochladen, sondern seinen Inhalt.
-Die index.html muss im Repository ganz oben liegen.
-
-## Pages einschalten
-
-Settings, dann Pages. Bei Source "Deploy from a branch" waehlen,
-Branch `main`, Ordner `/ (root)`. Speichern. Der erste Aufbau dauert
-ein bis zwei Minuten, danach steht die Adresse oben auf der Seite.
-
-## Groessen
-
-Keine Datei ist groesser als rund 3,6 MB. Der Weblader von GitHub nimmt
-einzelne Dateien bis 25 MB, das ist also unproblematisch.
-Die Seite selbst laedt beim Besucher mit rund 2,8 MB, davon 2,65 MB Bilder,
-die nach dem Text nachgeladen werden.
-
-## Nicht enthalten, mit Absicht
-
-Das Restnutzungsdauergutachten liegt nicht in "unterlagen". Es enthaelt
-personenbezogene Daten. Auf GitHub Pages ist jede Datei im Repository
-oeffentlich abrufbar, auch wenn sie auf der Seite nicht verlinkt ist.
-Im Expose steht deshalb, dass Grundbuchauszug, Restnutzungsdauergutachten
-und Mietvertrag bei ernsthaftem Kaufinteresse nachgereicht werden.
-Dasselbe gilt fuer den Mietvertrag und den Grundbuchauszug.
-
-## Falls ein Ordner anders heissen soll
-
-In der index.html steht im Skript genau eine Zeile:
-
-    var DOKBASE='unterlagen/';
-
-Nur diese aendern. Der Schraegstrich am Ende muss bleiben.
-Der Bildordner ist in den Bildpfaden hinterlegt und heisst "bilder".
-
-## Hinweis zum Oeffnen von der Festplatte
-
-Oeffnest du die index.html per Doppelklick, sperrt der Browser bei
-manchen Einstellungen den Zugriff auf Nachbarordner. Die Seite erscheint,
-die Downloads funktionieren dort aber nicht immer. Auf der
-veroeffentlichten Seite laeuft alles.
+1. Kaufpreisaufteilung Nr. 2 (Ordner Kaufpreisaufteilung, Stand 12.08.2026) weist
+   55,11 % Gebäude aus. Vor dem Notartermin auf 74,47 % neu erstellen, die alte
+   Fassung nicht an Notar oder Käufer geben. Begründung vorher vom Steuerberater
+   freigeben lassen.
+2. Kaufvertrag: Rücklage 8.640 € als mitveräußerte Rücklage für das Sondereigentum,
+   Variante ohne Eigenkapital (201.000 €, Verkäufer trägt Nebenkosten und
+   Grundschuld) und Gebäudeanteil 74,47 % aufnehmen.
+3. Steuerberater: Behandlung der Rücklage (Abzug aus der Abschreibungsbasis,
+   Entnahmen ohne Steuerwirkung) bestätigen lassen.
+4. Alte PDF-Exposés in "Dokumente für Käufer" (mit und ohne NK) nennen noch Balkon
+   und Mietsubvention. Nicht mehr verschicken.
+5. Excel-Kalkulation Nr. 2 rechnet noch mit 78 % Gebäudeanteil und Mietsubvention.
+   Vor Weitergabe als PDF angleichen.
+6. Formulierung "Doppelwohnhaus" im Text zum Haus gegen "Doppelhaushälfte" beim
+   Baujahr abgleichen.
+7. KI-Kennzeichnung: Falls das Terrassenfoto unbearbeitet ist, Kennzeichnung dort
+   entfernen.
